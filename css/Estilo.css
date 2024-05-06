@@ -1,0 +1,31 @@
+header {
+  text-align: center;
+  border-bottom: thick solid #e8ff00;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding-bottom: 6px; }
+
+main {
+  border-bottom: thick solid #e8ff00;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px; }
+
+#input_usuario {
+  text-align: center;
+  margin-top: 50px; }
+
+#input_contrasena {
+  text-align: center;
+  margin-top: 32px; }
+
+#crear_nuevo_usuario {
+  text-align: right;
+  padding-top: 45px; }
+
+#boton_entrar {
+  text-align: center;
+  margin-top: 32px; }
