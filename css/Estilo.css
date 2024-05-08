@@ -32,16 +32,42 @@ footer {
   text-align: right;
   padding-top: 45px;
 }
-#boton_entrar {
+#botones {
     text-align: center;
     margin-top: 57px;
     margin-bottom: 36px;
 }#texto_contactar_admin {
     margin-top: 50px;
 }
-#boton_elegir_contraseña {
-    margin-left: 40px;
-}
 #mi_correo {
     color: #FF8600;
+}
+#boton_aceptar {
+    margin-left: 50px;
+}
+#botones {
+    margin-top: 38px;
+}
+#boton_estado_animo {
+    margin-top: 50px;
+    text-align: center;
+}
+#boton_medicacion {
+    text-align: center;
+    margin-top: 25px;
+}
+#boton_informes {
+    margin-top: 25px;
+    text-align: center;
+}
+#boton_cerrar_sesion {
+    text-align: right;
+    margin-top: 50px;
+}
+#boton_elegir_contraseña {
+    margin-left: 39px;
+}
+#boton_entrar {
+    text-align: center;
+    margin-top: 50px;
 }

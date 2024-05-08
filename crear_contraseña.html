@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login</title>
+<title>crear_contraseña</title>
 <link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 <link href="css/Estilo.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 <header>
-  <h2>Login</h2>
+  <h2>Crear contraseña</h2>
 </header>
 <main>
   <div id="input_usuario">
@@ -20,20 +20,23 @@
       <input type="email" class="form-control" placeholder="Usuario" aria-describedby="basicaddon1">
     </div>
   </div>
-  <div id="input_contrasena">
+  <div id="input_elija_contrasena">
     <div class="input-group mb-3">
-      <div class="input-group-prepend"> <span class="input-group-text"><strong>Contraseña:</strong></span> </div>
+      <div class="input-group-prepend"> <span class="input-group-text"><strong>Elija contraseña:</strong></span> </div>
       <input type="password" class="form-control" placeholder="Contraseña" aria-describedby="basicaddon1">
     </div>
   </div>
-  <div id="boton_entrar">
-	  <a href="principal.html">
-    <button type="button" class="btn btn-success">Entrar</button>
-		  </a>
+  <div id="input_confirme_contrasena">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend"> <span class="input-group-text"><strong>Repita contraseña</strong></span> </div>
+      <input type="password" class="form-control" placeholder="Contraseña" aria-describedby="basicaddon1">
+    </div>
   </div>
-  <div id="crear_nuevo_usuario"> <a href="nuevo_usuario.html">
-    <h6>Crear nuevo usuario</h6>
-    </a> </div>
+  <div id="botones"> <a href="index.html">
+    <button type="button" class="btn btn-warning">Volver</button>
+    </a>
+    <button type="button" class="btn btn-success" id="boton_aceptar">Aceptar</button>
+  </div>
 </main>
 <footer></footer>
 </body>
