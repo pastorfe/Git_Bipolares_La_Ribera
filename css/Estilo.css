@@ -20,54 +20,73 @@ footer {
   margin-bottom: 15px;
   margin-left: 15px;
 }
-#input_usuario {
+#index_input_usuario {
   text-align: center;
   margin-top: 50px;
 }
-#input_contrasena {
+#index_input_contrasena {
   text-align: center;
   margin-top: 32px;
 }
-#crear_nuevo_usuario {
+#index_crear_nuevo_usuario {
   text-align: right;
   padding-top: 45px;
 }
-#botones {
+#crear_contrasena_botones {
     text-align: center;
     margin-top: 57px;
     margin-bottom: 36px;
-}#texto_contactar_admin {
+}#nuevo_usuario_texto_contactar_admin {
     margin-top: 50px;
 }
 #mi_correo {
     color: #FF8600;
 }
-#boton_aceptar {
+#crear_contrasena_boton_aceptar {
     margin-left: 50px;
 }
-#botones {
-    margin-top: 38px;
-}
-#boton_estado_animo {
+#estado_animo_botones {
     margin-top: 50px;
     text-align: center;
 }
-#boton_medicacion {
+#principal_boton_estado_animo {
+    margin-top: 50px;
+    text-align: center;
+}
+#principal_boton_medicacion {
     text-align: center;
     margin-top: 25px;
 }
-#boton_informes {
+#principal_boton_informes {
     margin-top: 25px;
     text-align: center;
 }
-#boton_cerrar_sesion {
+#principal_boton_cerrar_sesion {
     text-align: right;
     margin-top: 50px;
 }
-#boton_elegir_contraseña {
+#nuevo_usuario_boton_elegir_contraseña {
     margin-left: 39px;
 }
-#boton_entrar {
+#index_boton_entrar {
     text-align: center;
     margin-top: 50px;
+}
+#estado_animo_boton_cerrar_sesion   {
+    margin-left: 50px;
+}
+#estado_animo_boton_estado_animo {
+    text-align: center;
+}
+#nuevo_usuario_botones {
+    margin-top: 34px;
+    text-align: center;
+}
+#estado_animo_boton_registrar_nuevo_dia {
+    text-align: center;
+    margin-top: 50px;
+}
+#estado_animo_boton_modificar_datos_de_un_dia {
+    text-align: center;
+    margin-top: 25px;
 }
