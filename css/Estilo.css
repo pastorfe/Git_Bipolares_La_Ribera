@@ -7,7 +7,6 @@
   margin-right: 40px;
   padding: 10px;
 }
-.borde_redondeado {}
 body {
   background-color: white;
 }
@@ -24,7 +23,6 @@ body {
 .margin_50px_izquierda {
   margin-left: 50px;
 }
-
 .alineado_izquierda {
   text-align: left;
 }
@@ -42,29 +40,50 @@ body {
   color: red;
   text-emphasis-color: red;
 }
-/*
-.verticalText {  
-  transform: rotate(270deg); 
-}*/
-
 td {
-  font-size: 14px;  
+  font-size: 14px;
+}
+#tabla_estado_animo {
+  width: 295px;
+}
+.mania {
+  color: crimson;
+  background-color: lightpink;
+  font-size: 20px;
+}
+.depresion {
+  color: blue;
+  background-color: aquamarine;
+  font-size: 20px;
+}
+.eutimia {
+  color: green;
+  background-color: darkseagreen;
+  font-size: 20px;  
+}
+.mania_hospi {
+  color: crimson;
+  background-color: lightpink;  
+}
+.depre_hospi {
+  color: blue;
+  background-color: aquamarine;  
+}
+.mania-no-hospi {  
+  background-color: lavenderblush;
+}
+.depre-no-hospi {  
+  background-color: #DEEAFB;
+}
+.negrita {
+  font-weight: bold;
 }
 
-.mania{
-	color: crimson;
-	font-size: 20px;
-	font-weight: bold;	
+.agrandar_radio{
+	width: 20px;
+    height: 20px;	
 }
-
-.depresion{
-	color: blue;
-	font-size: 20px;
-	font-weight: bold;
-	
-	
-}
-#tabla_estado_animo{
-	table-layout: fixed;
-    width: 300px;
+.agrandar_checkbox{
+	width: 18px;
+    height: 18px;	
 }

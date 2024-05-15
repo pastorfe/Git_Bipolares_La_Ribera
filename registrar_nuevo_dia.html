@@ -17,7 +17,7 @@
   <input class="margin-15px" type="date" name="calendario" value="2024-01-01" min="2024-01-01" max="2100-12-31" />
   
   <!-- TODO: Esta tabla se rellenará de forma dinámica con los medicamentos de la BBDD -->
-  <table class="table table-bordered table-sm">
+  <table class="table table-bordered table-sm negrita">
     <thead class="table-primary">
     </thead>
     <tbody>
@@ -25,76 +25,95 @@
         <td>Lansoprazol (Prevacid)</td>
         <td>15mg</td>
         <td>3</td>
-        <td><input type="checkbox" value="" name=""></td>
+        <td><input class="agrandar_checkbox" type="checkbox" value="" name=""></td>
       </tr>
       <tr>
         <td>Levotiroxina (Eutirox)</td>
         <td>100mcg</td>
         <td>1</td>
-        <td><input type="checkbox" value="" name=""></td>
+        <td><input class="agrandar_checkbox" type="checkbox" value="" name=""></td>
       </tr>
       <tr>
         <td>Carvedilol (Coreg)</td>
         <td>25mg</td>
         <td>2</td>
-        <td><input type="checkbox" value="" name=""></td>
+        <td><input class="agrandar_checkbox" type="checkbox" value="" name=""></td>
       </tr>
       <tr>
         <td>Carvedilol (Coreg)</td>
         <td>25mg</td>
         <td>2</td>
-        <td><input type="checkbox" value="" name=""></td>
+        <td><input class="agrandar_checkbox" type="checkbox" value="" name=""></td>
       </tr>
       <tr>
         <td>Carvedilol (Coreg)</td>
         <td>25mg</td>
         <td>2</td>
-        <td><input type="checkbox" value="" name=""></td>
+        <td><input class="agrandar_checkbox" type="checkbox" value="" name=""></td>
       </tr>
     </tbody>
   </table>
-	
-  <table id="tabla_estado_animo" class="table-bordered table-sm table-responsive">
+  <table id="tabla_estado_animo" class="table-bordered table-sm table-responsive negrita">
     <thead class="table-primary">
     </thead>
     <tbody>
       <tr>
-        <td rowspan="4" class="mania"><p class="verticalText">MANÍA</p></td>		  
-        <td>GRAVE:<br>HOSPITALIZADO</td>        
-        <td><input type="radio" value="" name="radio"></td>
+        <td rowspan="4" class="mania"><p class="verticalText">M<br>
+            A<br>
+            N<br>
+            Í<br>
+            A</p></td>
+        <td class="mania_hospi">GRAVE:<br>
+          HOSPITALIZADO</td>
+        <td class="mania_hospi"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
       <tr>
-        <td>MODERADA ALTA:<br>GRÁN dificultad para realizar actividades de la vida diaria</td>		
-        <td><input type="radio" value="" name="radio"></td>
+        <td class="mania-no-hospi">MODERADA ALTA:<br>
+          GRÁN dificultad para realizar actividades de la vida diaria</td>
+        <td class="mania-no-hospi"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
       <tr>
-        <td>MODERADA BAJA:<br>ALGUNA dificultad para realizar actividades de la vida diaria</td>        
-        <td><input type="radio" value="" name="radio"></td>
+        <td class="mania-no-hospi">MODERADA BAJA:<br>
+          ALGUNA dificultad para realizar actividades de la vida diaria</td>
+        <td class="mania-no-hospi"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
       <tr>
-        <td>LEVE:<br>Más enérgico y productivo, con poca o ninguna dificultad para mantener actividades de la vida diaria</td>       
-        <td><input type="radio" value="" name="radio"></td>
+        <td class="mania-no-hospi">LEVE:<br>
+          Más enérgico y productivo, con poca o ninguna dificultad para mantener actividades de la vida diaria</td>
+        <td class="mania-no-hospi"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
       <tr>
-        <td colspan="2">EUTÍMIA</td>        
-        <td><input type="radio" value="" name="radio"></td>
+        <td colspan="2" class="eutimia">E U T Í M I A</td>
+        <td class="eutimia"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
       <tr>
-        <td rowspan="4" class="depresion"><p class="verticalText">DEPRESIÓN</p></td>
-        <td>LEVE:<br>Poca o ninguna afectación funcional</td>
-        <td><input type="radio" value="" name="radio"></td>
+        <td rowspan="4" class="depresion"><p class="verticalText">D<br>
+            E<br>
+            P<br>
+            R<br>
+            E<br>
+            S<br>
+            I<br>
+            Ó<br>
+            N</p></td>
+        <td class="depre-no-hospi">LEVE:<br>
+          Poca o ninguna afectación funcional</td>
+        <td class="depre-no-hospi"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
       <tr>
-        <td>MODERADA BAJA:<br>Funciona con CIERTO esfuerzo</td>    
-        <td><input type="radio" value="" name="radio"></td>
+        <td class="depre-no-hospi">MODERADA BAJA:<br>
+          Funciona con CIERTO esfuerzo</td>
+        <td class="depre-no-hospi"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
       <tr>
-        <td>MODERADA ALTA:<br>Funciona con GRAN esfuerzo</td>    
-        <td><input type="radio" value="" name="radio"></td>
+        <td class="depre-no-hospi">MODERADA ALTA:<br>
+          Funciona con GRAN esfuerzo</td>
+        <td class="depre-no-hospi"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
       <tr>
-        <td>GRAVE:<br>HOSPITALIZADO</td>  
-        <td><input type="radio" value="" name="radio"></td>
+        <td class="depre_hospi">GRAVE:<br>
+          HOSPITALIZADO</td>
+        <td class="depre_hospi"><input class="agrandar_radio" type="radio" value="" name="radio"></td>
       </tr>
     </tbody>
   </table>
