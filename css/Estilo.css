@@ -7,9 +7,7 @@
   margin-right: 40px;
   padding: 10px;
 }
-.borde_redondeado{
-	
-}
+.borde_redondeado {}
 body {
   background-color: white;
 }
@@ -21,11 +19,12 @@ body {
   color: #FF8600;
 }
 .margin-15px {
-	margin:15px;
+  margin: 15px;
 }
 .margin_50px_izquierda {
   margin-left: 50px;
 }
+
 .alineado_izquierda {
   text-align: left;
 }
@@ -36,15 +35,36 @@ body {
   text-align: right;
 }
 .table-responsive {
-    max-height:300px;
-	max-width:300px;
+  max-height: 300px;
+  max-width: 300px;
 }
-.close{
-	color: red;
-	text-emphasis-color: red;
+.close {
+  color: red;
+  text-emphasis-color: red;
 }
-td{
-	font-size: 14px;
-	align:center;	
+/*
+.verticalText {  
+  transform: rotate(270deg); 
+}*/
+
+td {
+  font-size: 14px;  
 }
 
+.mania{
+	color: crimson;
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+.depresion{
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	
+	
+}
+#tabla_estado_animo{
+	table-layout: fixed;
+    width: 300px;
+}
