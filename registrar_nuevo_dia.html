@@ -15,7 +15,8 @@
 <main class="arreglo_bordes"> 
   <!-- TODO: Cambiar el value mediante JS para que pille el dia de hoy -->
   <input class="margin-15px" type="date" name="calendario" value="2024-01-01" min="2024-01-01" max="2100-12-31" />
-  
+  <br>
+  <br>
   <!-- TODO: Esta tabla se rellenará de forma dinámica con los medicamentos de la BBDD -->
   <table class="table table-bordered table-sm negrita">
     <thead class="table-primary">
@@ -53,7 +54,8 @@
       </tr>
     </tbody>
   </table>
-  <table id="tabla_estado_animo" class="table-bordered table-sm table-responsive negrita">
+  <br>
+  <table id="tabla_estado_animo" class="table-bordered table-sm negrita">
     <thead class="table-primary">
     </thead>
     <tbody>
@@ -117,6 +119,48 @@
       </tr>
     </tbody>
   </table>
+  <div class="margin-15px tamano_letra_14 negrita"><br>
+    <label class="form-label alineado_izquierda">Estado de anímo de 0 a 100, donde 0 es más deprimido que nunca, 50 es eutímico y 100 más maníaco que nunca.</label>
+    <input class="ancho_225px" type="range" value="50" min="0" max="100" oninput="this.nextElementSibling.value = this.value">
+    <output>50</output>
+  </div>
+  <div class="margin-15px tamano_letra_14 negrita">
+    <label class="form-label alineado_izquierda">Horas de sueño (siesta incluida)</label>
+    <br>
+    <input class="ancho_225px" type="range" value="8" min="0" max="24" oninput="this.nextElementSibling.value = this.value">
+    <output>8</output>
+  </div>
+  <div class="margin-15px tamano_letra_14 negrita">
+    <label class="form-label alineado_izquierda">Horas de siesta</label>
+    <br>
+    <input class="ancho_225px" type="range" value="0" min="0" max="24" oninput="this.nextElementSibling.value = this.value">
+    <output>0</output>
+  </div>
+  <div class="margin-15px tamano_letra_14 negrita">
+    <div class="margin-15px tamano_letra_14 negrita">
+      <label class="form-label">Día de periodo menstrual</label>
+      <input class="agrandar_checkbox" type="checkbox" value="" name="">
+    </div>
+    <label class="form-label">¿Acontecimiento vital?</label>
+    <input class="agrandar_checkbox" type="checkbox" value="" name="">
+    <br>
+    <br>
+    <label class="form-label alineado_izquierda" disabled>Impacto del acontecimiento (-4 |+4)</label>
+    <br>
+    <input class="ancho_225px" type="range" value="0" min="-4" max="4" oninput="this.nextElementSibling.value = this.value">
+    <output>0</output>
+    <br>
+    <br>
+    <label class="form-label">Descripción del acontecimiento:</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+  <br>
+  <div class="margin-15px tamano_letra_14 negrita">
+    <label class="form-label">Anotaciones:</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+  <br>
+  <div> <a type="button" class="btn btn-success" href="">Guardar</a> </div>
 </main>
 <footer class="arreglo_bordes">
   <div class="alineado_centrado"> <a type="button" class="btn btn-warning" href="estado_animo.html" >Volver</a> <a type="button" class="btn btn-danger margin_50px_izquierda" href="index.html" >Cerrar sesión</a> </div>
